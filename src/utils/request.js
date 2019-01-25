@@ -9,14 +9,11 @@ const service = axios.create({
   transformRequest: [
     function(data) {
       // Do whatever you want to transform the data
-      const request = qs.stringify({
-        data: JSON.stringify(data)
-      })
+      const request = qs.stringify(data)
       return request
     }
   ],
-  // baseURL: process.env.BASE_API, // api的base_url
-  baseURL: 'http://192.168.80.240:8083',
+  baseURL: process.env.VUE_APP_API, // api的base_url
   timeout: 30000, // 请求超时时间
   responseType: 'json'
 })

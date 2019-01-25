@@ -13,10 +13,12 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "element-ui": "^2.4.11",
     "js-cookie": "^2.2.0",
     "lodash": "^4.17.11",
     "vue": "^2.5.17",
     "vue-gemini-scrollbar": "^2.0.0",
+    "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.1",
     "vue-wechat-title": "^2.0.5",
     "vuex": "^3.0.1"
@@ -32,6 +34,8 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
+    "babel-plugin-component": "^1.1.1",
+    "compression-webpack-plugin": "^2.0.0",
     "eslint": "^5.8.0",
     "eslint-plugin-html": "^5.0.0",
     "eslint-plugin-vue": "^5.0.0-0",
